@@ -4,7 +4,7 @@ class Saudacao {
 	
 	public static void main (String args[]){
         
-        //System.out.print("Digite o nome do Aluno: ");
+        
         
         // Declarando e instanciando o objeto entrada do tipo Scanner 
         Scanner entrada = new Scanner(System.in);
@@ -12,8 +12,10 @@ class Saudacao {
 		/*
          Aqui criamos o objeto que receberá o nome do aluno
 		
+		System.out.print("Digite o nome do Aluno: ");
 		String nome = entrada.nextLine();
-         */
+        
+        */
         String nome = JOptionPane.showInputDialog("Digite o nome do Aluno: ");
 
 		System.out.println(nome + " Benvindo ao curso de Java");
