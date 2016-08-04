@@ -1,7 +1,7 @@
 class Saudacao {
-	public static void main (String arg[]){
-		
-		System.out.println("Benvindo ao curso de Java");
+	public static void main (String args[]){
 
+		System.out.println(args[0] + " Benvindo ao curso de Java");
+     
 	}
 }
